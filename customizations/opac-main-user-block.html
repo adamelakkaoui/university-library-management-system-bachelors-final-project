@@ -1,0 +1,188 @@
+<style>
+        .main-activity {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .top {
+            margin: 12px;
+            display: flex;
+            color: hsl(0, 0%, 10%);
+  			width: 100%;
+  			justify-content: space-around;
+        }
+
+        .shift-prev .shift-next {
+            width: 32px;
+            height: 32px;
+        }
+
+        h2 {
+            margin: 0 10px 0 10px;
+        }
+
+        .shelf {
+            width: 720px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            transition: cubic-bezier(0.075, 0.82, 0.165, 1) 50ms;
+  			padding: 20px 0;
+        }
+
+        .list {
+            rotate: 270deg;
+            margin-top: -24px;
+        }
+
+        .list li{
+            opacity: 0.2;
+        }
+
+        li.active {
+            opacity: 1;
+        }
+
+        .block {
+            margin: 8px;
+        }
+
+        .img {
+            width: 224px;
+            height: 320px;
+        }
+          hr{
+                width: 100%;
+}
+</style>
+<div class="main-activity"><hr />
+<div class="vuess">
+<h2>VISITEURS EN LIGNE DE LA BIBLIOTHEQUE</h2>
+<a href="https://www.hitwebcounter.com" target="_blank" rel="noopener"> <img src="https://hitwebcounter.com/counter/counter.php?page=13534621&amp;style=0027&amp;nbdigits=9&amp;type=page&amp;initCount=1000" title="Counter Widget" alt="Visit counter For Websites" border="0" /> </a></div>
+<div class="top"><button class="shift-prev btn btn-primary"> <i class="fa fa-arrow-prev"></i></button>
+<h2>Livres</h2>
+<button class="shift-next btn btn-primary"> <i class="fa fa-arrow-next"></i> </button></div>
+<div class="shelf">
+<div class="block"><a href="http://localhost:7001/cgi-bin/koha/opac-detail.pl?biblionumber=9" draggable="false"> <img src="https://images-na.ssl-images-amazon.com/images/P/2869251521.01.MZZZZZZZ.jpg" alt="pic" class="img" draggable="false" /> </a></div>
+<div class="block"><a href="http://localhost:7001/cgi-bin/koha/opac-detail.pl?biblionumber=1" draggable="false"> <img src="https://images-na.ssl-images-amazon.com/images/P/2212142439.01.LZZZZZZZ.jpg" alt="pic" class="img" draggable="false" /> </a></div>
+<div class="block"><a href="http://localhost:7001/cgi-bin/koha/opac-detail.pl?biblionumber=8" draggable="false"> <img src="https://images-na.ssl-images-amazon.com/images/P/2744015644.01.LZZZZZZZ.jpg" alt="pic" class="img" draggable="false" /> </a></div>
+<div class="block"><a href="http://localhost:7001/cgi-bin/koha/opac-detail.pl?biblionumber=5" draggable="false"> <img src="https://images-na.ssl-images-amazon.com/images/P/2412048223.01.LZZZZZZZ.jpg" alt="pic" class="img" draggable="false" /> </a></div>
+<div class="block"><a href="http://localhost:7001/cgi-bin/koha/opac-detail.pl?biblionumber=3" draggable="false"> <img src="https://images-na.ssl-images-amazon.com/images/P/2100758861.01.LZZZZZZZ.jpg" alt="pic" class="img" draggable="false" /> </a></div>
+<div class="block"><a href="http://localhost:7001/cgi-bin/koha/opac-detail.pl?biblionumber=9" draggable="false"> <img src="https://images-na.ssl-images-amazon.com/images/P/2869251521.01.MZZZZZZZ.jpg" alt="pic" class="img" draggable="false" /> </a></div>
+<div class="block"><a href="http://localhost:7001/cgi-bin/koha/opac-detail.pl?biblionumber=1" draggable="false"> <img src="https://images-na.ssl-images-amazon.com/images/P/2212142439.01.LZZZZZZZ.jpg" alt="pic" class="img" draggable="false" /> </a></div>
+<div class="block"><a href="http://localhost:7001/cgi-bin/koha/opac-detail.pl?biblionumber=8" draggable="false"> <img src="https://images-na.ssl-images-amazon.com/images/P/2744015644.01.LZZZZZZZ.jpg" alt="pic" class="img" draggable="false" /> </a></div>
+<div class="block"><a href="http://localhost:7001/cgi-bin/koha/opac-detail.pl?biblionumber=5" draggable="false"> <img src="https://images-na.ssl-images-amazon.com/images/P/2412048223.01.LZZZZZZZ.jpg" alt="pic" class="img" draggable="false" /> </a></div>
+<div class="block"><a href="http://localhost:7001/cgi-bin/koha/opac-detail.pl?biblionumber=3" draggable="false"> <img src="https://images-na.ssl-images-amazon.com/images/P/2100758861.01.LZZZZZZZ.jpg" alt="pic" class="img" draggable="false" /> </a></div>
+<div class="block"><a href="http://localhost:7001/cgi-bin/koha/opac-detail.pl?biblionumber=9" draggable="false"> <img src="https://images-na.ssl-images-amazon.com/images/P/2869251521.01.MZZZZZZZ.jpg" alt="pic" class="img" draggable="false" /> </a></div>
+<div class="block"><a href="http://localhost:7001/cgi-bin/koha/opac-detail.pl?biblionumber=1" draggable="false"> <img src="https://images-na.ssl-images-amazon.com/images/P/2212142439.01.LZZZZZZZ.jpg" alt="pic" class="img" draggable="false" /> </a></div>
+<div class="block"><a href="http://localhost:7001/cgi-bin/koha/opac-detail.pl?biblionumber=8" draggable="false"> <img src="https://images-na.ssl-images-amazon.com/images/P/2744015644.01.LZZZZZZZ.jpg" alt="pic" class="img" draggable="false" /> </a></div>
+</div>
+</div>
+<script>
+  const navbar_brand = document.querySelector('.navbar-brand');
+
+navbar_brand.textContent = "";
+navbar_brand.href = "http://localhost:7001/";
+
+
+const shift_prev = document.querySelector('.shift-prev');
+const shift_next = document.querySelector('.shift-next');
+const parent = document.querySelector('.shelf');
+const gparent = document.querySelector('.main-activity');
+
+console.log(parent);
+
+const ul = document.createElement('ul');
+const li = document.createElement('li');
+
+const bookwidth = 240;
+
+let j = 0;
+let isDown = false;
+let scrollLeft;
+let stertX;
+
+ul.classList.add("list");
+
+
+for (let i = 0; i < 5; i++) {
+  li.classList.add(i);
+  ul.appendChild(li.cloneNode(1));
+}
+gparent.appendChild(ul);
+
+parent.scrollLeft = 2 * bookwidth;
+
+
+parent.addEventListener('mousedown', (e) => {
+  isDown = true;
+  stertX = e.clientX - parent.offsetLeft;
+  scrollLeft = parent.scrollLeft;
+});
+
+parent.addEventListener('mouseleave', (e) => {
+  isDown = false;
+  let ps = parent.scrollLeft;
+  parent.scrollLeft = Math.round(ps / bookwidth) * bookwidth;
+  if (ps < 2 * bookwidth)
+    parent.scrollLeft += 5 * bookwidth;
+  if (ps > 7 * bookwidth)
+    parent.scrollLeft -= 5 * bookwidth;
+  ulChange();
+});
+
+parent.addEventListener('mouseup', (e) => {
+  isDown = false;
+  let ps = parent.scrollLeft;
+  parent.scrollLeft = Math.round(ps / bookwidth) * bookwidth;
+  if (ps < 2 * bookwidth)
+    parent.scrollLeft += 5 * bookwidth;
+  if (ps > 7 * bookwidth)
+    parent.scrollLeft -= 5 * bookwidth;
+  ulChange();
+});
+
+parent.addEventListener('mousemove', (e) => {
+  if (!isDown)
+    return;
+  const x = scrollLeft - (e.clientX - parent.offsetLeft - stertX);
+  parent.scrollLeft = x;
+});
+
+shift_prev.addEventListener('click', () => {
+  let ps = parent.scrollLeft;
+  ps -= bookwidth;
+  if (ps < 2 * bookwidth)
+    ps += 5 * bookwidth;
+  if (ps > 7 * bookwidth)
+    ps -= 5 * bookwidth;
+  parent.scrollLeft = ps;
+  ulChange();
+});
+
+shift_next.addEventListener('click', () => {
+  let ps = parent.scrollLeft;
+  ps += bookwidth;
+  if (ps < 2 * bookwidth)
+    ps += 5 * bookwidth;
+  if (ps > 7 * bookwidth)
+    ps -= 5 * bookwidth;
+  parent.scrollLeft = ps;
+  ulChange();
+});
+
+function ulChange() {
+  j = 0;
+  ul.childNodes.forEach(l => {
+    if (j === (parent.scrollLeft / bookwidth + 1) % 5)
+      l.classList.add('active');
+    else if (l.classList.contains('active'))
+      l.classList.remove('active');
+    j++;
+  });
+}
+
+ulChange();
+  </script>

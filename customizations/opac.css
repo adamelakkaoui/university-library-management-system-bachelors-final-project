@@ -1,0 +1,247 @@
+.dropdown-menu .dropdown-item{
+	color: hsl(0, 0%, 20%);
+}
+
+.dropdown-item a:visited{
+	color: hsl(0, 0%, 20%);
+}
+
+.dropdown-item.listmenulink{
+	color: hsl(0, 0%, 20%);
+}
+
+a:link {
+  color: #04c4ff;
+}
+
+.dropdown-item.menu-inactive{
+	color: hsl(0, 0%, 20%);
+}
+
+p a.loginlink{
+	color: hsl(0, 0%, 20%);
+}
+
+.loggedinuser-menu a:visited{
+	color: hsl(0, 0%, 20%);
+}
+
+#members .login-link{
+  color: hsl(0, 0%, 20%);
+}
+
+#members .nav-link{
+	color: #fff; 
+}
+
+
+
+.userlabel{
+	color: #fff;
+}
+
+a:visited{
+	color: #04c4ff;
+}
+
+a:hover{
+	color: #0F0;
+  	text-decoration: none;
+}
+
+#moresearches li::after{
+	color: #fff;
+}
+
+body{
+	background: hsl(225, 100%, 30%);
+}
+
+#header-region::before{
+  	content: "";
+  	position: absolute;
+  	top:0;
+  	right:0;
+  	bottom:0;
+  	left:0;
+	background-image: url(https://buit-carte.uit.ac.ma/images/biblio-uit.jpg);
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-position-y: -180px;
+  	opacity: 0.1;
+  	z-index: -1;  
+  	height: 140px;
+}
+
+#changelanguage{
+  	display: none;
+}
+#logo{
+	background-image: url(https://media.licdn.com/dms/image/D4E0BAQGKUGq7UBkm_A/company-logo_200_200/0/1702463275059/ibntofailuniversity_itu_logo?e=2147483647&v=beta&t=7up_kWbUTfEoZwV_l5K0drk2D40klRG9B5wDPmc7syw);
+  	background-size: cover;
+	width: 120px;
+  	height: 120px;
+  	content: "";
+  	border-radius: 32px;
+}
+
+#logo a{
+  	width: 120px;
+  	height: 120px !important;
+  	padding: 0;
+  	color: hsl(221.3, 100%, 27.1%);
+  	opacity: 0;
+}
+
+.btn-primary{
+	background-color: hsl(225, 100%, 30%);
+}
+
+.btn-primary:hover{
+	background-color: hsl(225, 100%, 40%);
+	border-color: hsl(225, 90%, 35%);
+  	box-shadow:0 0 0 1px hsl(210, 80%, 50%);
+}
+
+#koha_url{
+  	display: none;
+}
+
+.footer-container{
+  	background-color: hsl(0, 0%, 10%);
+	position: absolute;
+    bottom: -500px;
+  	right: 0;
+  	left: 0;
+  	max-width: 100%;
+  	padding: 40px;
+}
+
+.activity{
+	display: flex;
+  	justify-content: space-around;
+  	color: hsl(0, 0%, 60%);
+}
+
+h1{
+	color: hsl(0, 0.5%, 60.6%);
+  	text-decoration: underline #04ffff;
+  	margin-bottom: 2rem;
+}
+
+#wrapper{
+	padding: 0;
+}
+
+.col-12{
+  	flex: 100%;
+}
+
+.col-lg-7{
+	max-width: 63%;
+}
+
+.col-lg-2{
+  max-width: 16%;
+}
+
+.col-lg-3{
+  max-width: 21%;
+}
+
+#loggedin .row{
+  	justify-content: flex-start;
+} 
+
+#daily-quote{
+	display: flex;
+  	flex-flow: column;
+  	align-items: center;
+}
+
+.vuess{
+	display: flex;
+  	flex-flow: column;
+  	align-items: center;
+}
+
+.navbar-nav li a{
+	color: #fff;
+}
+
+.fa-arrow-prev::before{
+	content: "\f060";
+}
+
+.fa-arrow-next::before{
+	content: "\f061";
+}
+
+.breadcrumb a:visited{
+	color: #000;
+}
+.newscontainer {
+  	border: 1px solid #002699;
+}
+
+@media only screen and (max-width: 500px){
+  #wrapper{
+  	display: flex;
+    flex-direction: column;
+  }
+  
+  #news-branch-select{
+  	display: none;
+  }
+  
+  #news{
+  	display: none;
+  }
+  
+  #notloggedin{
+  	display: flex;
+    flex-direction: column;
+  }
+  
+  .row{
+  	margin: 0;
+    flex-direction: column;
+  }
+  
+  .col-lg-2, .col-lg-7, .col-lg-3{
+  	max-width: 100%;
+  }
+  
+  #ifr{
+  	display: none;
+  }
+  
+  .shelf{
+  	max-width: 240px;
+  }
+  
+  .footer-container{
+  	bottom: -800px;
+  }
+  
+  .activity{
+    flex-direction: column;
+  }
+  
+  #backtotop{
+  	left: 85%;
+  }
+  
+  body{
+  	overflow-x: hidden;
+    overflow-y: auto;
+  }
+  
+  .search_history{
+  	display: none;
+  }
+   
+}
+.no-image{
+display: none;
+}
