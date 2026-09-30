@@ -30,3 +30,14 @@ The original Koha version is not recorded clearly in the selected files, and the
 - Mohammed Zaidouh
 
 Academic supervision credited in the submitted report: Pr. Hatim Kharraz Aroussi.
+
+## Academic artefacts
+
+- [French bachelor's report (privacy-redacted PDF)](docs/academic-report-fr-redacted.pdf) — member-record screenshots and contact details were removed
+- [French defence presentation (PPTX)](presentations/koha-presentation-fr.pptx)
+
+No video was found. Database exports, member/borrower records and MARC imports are not distributed.
+
+## Testing and limitations
+
+The retained OPAC HTML/CSS was reviewed as static text. No Koha server was available, so it was not deployed against a specific version. The report documents the historical installation; screenshot redactions deliberately limit member-related visual detail.
