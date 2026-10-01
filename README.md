@@ -4,7 +4,7 @@
 
 Bachelor's final project documenting and customizing a university-library deployment based on Koha.
 
-![Customized university-library OPAC homepage](images/koha-opac-home.jpg)
+![Customized university-library OPAC homepage](images/koha-opac-home.png)
 
 *Customized OPAC homepage with Ibn Tofail University branding, catalogue access, announcements, electronic resources and user services.*
 
@@ -16,7 +16,7 @@ The academic material covers requirements analysis, UML design, Koha installatio
 
 - `customizations/opac.css` — OPAC visual customization.
 - `customizations/opac-main-user-block.html` — customized OPAC carousel/user block.
-- `images/koha-opac-home.jpg` — customized library OPAC homepage.
+- `images/koha-opac-home.png` — customized library OPAC homepage.
 - `images/koha-staff-login.png` — Koha staff login screen from the project environment.
 - [French bachelor's report (privacy-redacted PDF)](docs/academic-report-fr-redacted.pdf).
 - [French defence presentation (PPTX)](presentations/koha-presentation-fr.pptx).
