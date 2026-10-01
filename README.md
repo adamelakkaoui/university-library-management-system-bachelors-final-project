@@ -4,7 +4,7 @@
 
 Bachelor's final project documenting and customizing a university-library deployment based on Koha.
 
-![Customized university-library OPAC homepage](images/koha-opac-home.png)
+![Customized university-library OPAC homepage](images/koha-opac-home.jpg)
 
 *Customized OPAC homepage with Ibn Tofail University branding, catalogue access, announcements, electronic resources and user services.*
 
