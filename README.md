@@ -1,7 +1,5 @@
 # University Library Management System (Bachelor's final project)
 
-![LIBRARY SYSTEMS — Koha configuration and OPAC customisation](assets/portfolio-banner.svg)
-
 Bachelor's final project documenting and customizing a university-library deployment based on Koha.
 
 ![Customized university-library OPAC homepage](images/koha-opac-home.png)
@@ -27,7 +25,6 @@ The report covers requirements analysis, UML design, Koha installation and confi
 
 Install Koha and apply the CSS and user-block HTML through the OPAC customization/system preferences used in the project.
 
-
 ## Results and perspectives
 
 The project delivers a web solution for university-library management by integrating and customizing the open-source Koha platform. The report highlights the design of both the **OPAC** and **STAFF** interfaces, with a clear structure and intuitive access to library services. The OPAC uses a blue visual identity aligned with Ibn Tofail University.
@@ -37,7 +34,6 @@ The report proposes several future improvements:
 - expand access to digital and electronic resources;
 - introduce virtual collaborative workspaces with document sharing, videoconferencing and project-management tools;
 - strengthen user engagement through awareness activities and incentive programs.
-
 
 ## Authors and supervision
 
