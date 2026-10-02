@@ -1,5 +1,8 @@
 # University Library Management System (Bachelor's final project)
 
+![LIBRARY SYSTEMS — Koha configuration and OPAC customisation](assets/portfolio-banner.svg)
+
+
 Bachelor's final project documenting and customizing a university-library deployment based on Koha.
 
 ![Customized university-library OPAC homepage](images/koha-opac-home.png)
